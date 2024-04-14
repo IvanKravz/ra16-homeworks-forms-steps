@@ -2,9 +2,6 @@ import './FormSteps.css'
 import PropTypes from 'prop-types';
 
 export const FormSteps = ({ form, setForm, addResult} ) => {
-    console.log('form', form)
-    console.log('form.date', form.date)
-    console.log('form.distance', form.distance)
     const regDate = /^\d{2}\.\d{2}\.\d{4}$/;
     const regDistance = /^\d+\.?\d*$/;
 
